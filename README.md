@@ -2,6 +2,8 @@
 
 **Consensus observation reports → exact randomized signal filters, or a separating impossibility witness.**
 
+[Deployed StudioNet contract](https://explorer-studio.genlayer.com/address/0x793fb9c6715E7378b241C086fDed7c5877Cde80c) · [33 finalized receipts across four scenarios](proofs/README.md) · [Ready submission text](SUBMISSION.md). Lint, 117 direct tests, seven transport tests, 27 live previews and independent local receipt/state replay passed. Full vote maps retain 131 agree and 34 idle entries.
+
 A fixed commit-pinned prose report describes two input contexts and four observed signal labels. GenLayer leader and validators independently fetch the complete document, extract all ten trial/count decisions, compare each exactly and separately audit every full source clause. Requested response profiles come from users; observed counts come from the fetched report.
 
 The contract enumerates all sixteen deterministic filters and constructs their attainable response polygon. A feasible request becomes an exact rational mixture of at most three deterministic filters, yielding one emit-one probability per source signal. An infeasible request gets an integer separating line proving that every attainable filter misses it. Equal context distributions collapse to a diagonal segment, handled explicitly. Feasible filters can be composed with further binary postprocessing while retaining their exact response probabilities and parent provenance.
@@ -10,6 +12,8 @@ The contract enumerates all sixteen deterministic filters and constructs their a
 
 - [Pinned GenVM contract](contracts/signal_hull.py)
 - [Architecture and consensus boundary](docs/architecture.md)
+- [Worked rational filter and separating-line example](docs/filter-example.md)
+- [Trust boundaries and review notes](docs/review.md)
 - [Synthetic reports](reports)
 - [Independent linear-feasibility tests](tests/direct)
 - [CLI live driver](scripts/live-proof.cjs) and [receipt/state verifier](scripts/verify-proofs.cjs)

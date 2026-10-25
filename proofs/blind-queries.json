@@ -1,0 +1,200 @@
+[
+  {
+    "low": 0,
+    "high": 0,
+    "result": {
+      "depth": 0,
+      "profile": {
+        "denominator": 1,
+        "numerators": [
+          0,
+          0
+        ]
+      },
+      "selector": {
+        "denominator": 1,
+        "numerators": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "status": "FEASIBLE",
+      "witness": {
+        "kind": "MIXTURE",
+        "masks": [
+          0,
+          15
+        ],
+        "weights": {
+          "denominator": 1,
+          "numerators": [
+            1,
+            0
+          ]
+        }
+      }
+    }
+  },
+  {
+    "low": 0,
+    "high": 12,
+    "result": {
+      "bound": 0,
+      "margin": 12,
+      "normal": [
+        -1,
+        1
+      ],
+      "observed": 12,
+      "status": "INFEASIBLE"
+    }
+  },
+  {
+    "low": 12,
+    "high": 0,
+    "result": {
+      "bound": 0,
+      "margin": 12,
+      "normal": [
+        1,
+        -1
+      ],
+      "observed": 12,
+      "status": "INFEASIBLE"
+    }
+  },
+  {
+    "low": 12,
+    "high": 12,
+    "result": {
+      "depth": 0,
+      "profile": {
+        "denominator": 1,
+        "numerators": [
+          1,
+          1
+        ]
+      },
+      "selector": {
+        "denominator": 1,
+        "numerators": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "status": "FEASIBLE",
+      "witness": {
+        "kind": "MIXTURE",
+        "masks": [
+          0,
+          15
+        ],
+        "weights": {
+          "denominator": 1,
+          "numerators": [
+            0,
+            1
+          ]
+        }
+      }
+    }
+  },
+  {
+    "low": 6,
+    "high": 6,
+    "result": {
+      "depth": 0,
+      "profile": {
+        "denominator": 2,
+        "numerators": [
+          1,
+          1
+        ]
+      },
+      "selector": {
+        "denominator": 2,
+        "numerators": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "status": "FEASIBLE",
+      "witness": {
+        "kind": "MIXTURE",
+        "masks": [
+          0,
+          15
+        ],
+        "weights": {
+          "denominator": 2,
+          "numerators": [
+            1,
+            1
+          ]
+        }
+      }
+    }
+  },
+  {
+    "low": 3,
+    "high": 9,
+    "result": {
+      "bound": 0,
+      "margin": 6,
+      "normal": [
+        -1,
+        1
+      ],
+      "observed": 6,
+      "status": "INFEASIBLE"
+    }
+  },
+  {
+    "low": 9,
+    "high": 3,
+    "result": {
+      "bound": 0,
+      "margin": 6,
+      "normal": [
+        1,
+        -1
+      ],
+      "observed": 6,
+      "status": "INFEASIBLE"
+    }
+  },
+  {
+    "low": 8,
+    "high": 4,
+    "result": {
+      "bound": 0,
+      "margin": 4,
+      "normal": [
+        1,
+        -1
+      ],
+      "observed": 4,
+      "status": "INFEASIBLE"
+    }
+  },
+  {
+    "low": 7,
+    "high": 5,
+    "result": {
+      "bound": 0,
+      "margin": 2,
+      "normal": [
+        1,
+        -1
+      ],
+      "observed": 2,
+      "status": "INFEASIBLE"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "repository": "mohammadisina1988-jpg/signal-hull",
+  "source_sha256": "2279ccb85da1ef029158232337395f867bf81f71d11057dd90b1bba6b9e67a25",
+  "runs": [
+    {
+      "scenario": "informative",
+      "workflow_run": "40195198608",
+      "url": "https://github.com/mohammadisina1988-jpg/signal-hull/actions/runs/40195198608"
+    },
+    {
+      "scenario": "noisy",
+      "workflow_run": "40195202436",
+      "url": "https://github.com/mohammadisina1988-jpg/signal-hull/actions/runs/40195202436"
+    },
+    {
+      "scenario": "blind",
+      "workflow_run": "40195206202",
+      "url": "https://github.com/mohammadisina1988-jpg/signal-hull/actions/runs/40195206202"
+    },
+    {
+      "scenario": "unresolved",
+      "workflow_run": "40195210762",
+      "url": "https://github.com/mohammadisina1988-jpg/signal-hull/actions/runs/40195210762"
+    }
+  ]
+}

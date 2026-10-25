@@ -1,0 +1,22 @@
+{
+  "channel": {
+    "status": "PENDING"
+  },
+  "configuration": {
+    "contexts": [
+      "low",
+      "high"
+    ],
+    "repository": "mohammadisina1988-jpg/signal-hull",
+    "sha256": "c264695a5509555bf5816d296febe75cdba1b6f3ccd25e612c2ba9d97b650500",
+    "signals": [
+      "red",
+      "blue",
+      "green",
+      "gray"
+    ],
+    "trials_per_context": 12,
+    "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/blind.json"
+  },
+  "designs": []
+}

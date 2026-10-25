@@ -1,0 +1,4295 @@
+[
+  {
+    "label": "informative-reject-before-compile",
+    "method": "design",
+    "args": [
+      "0",
+      "12"
+    ],
+    "error": "[EXPECTED] Channel not ready",
+    "transaction": "0xc625eadf5345fb887dfb9c10fe0fcf523b866b78fe6a924adb4d1b0334151697",
+    "state_before": {
+      "channel": {
+        "status": "PENDING"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": []
+    },
+    "state": {
+      "channel": {
+        "status": "PENDING"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": []
+    }
+  },
+  {
+    "label": "informative-compile",
+    "method": "compile",
+    "args": [],
+    "transaction": "0x9c95c794881e8f6bb32563f35702e3b47d0d95aa253da0dd78926cae1d665af7",
+    "state_before": {
+      "channel": {
+        "status": "PENDING"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": []
+    },
+    "state": {
+      "channel": {
+        "assessment": {
+          "counts": [
+            [
+              9,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              8
+            ]
+          ],
+          "trials": [
+            12,
+            12
+          ]
+        },
+        "geometry": {
+          "hull": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            }
+          ],
+          "vertices": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 4,
+              "point": [
+                0,
+                4
+              ]
+            },
+            {
+              "mask": 8,
+              "point": [
+                0,
+                8
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            },
+            {
+              "mask": 2,
+              "point": [
+                3,
+                0
+              ]
+            },
+            {
+              "mask": 6,
+              "point": [
+                3,
+                4
+              ]
+            },
+            {
+              "mask": 10,
+              "point": [
+                3,
+                8
+              ]
+            },
+            {
+              "mask": 14,
+              "point": [
+                3,
+                12
+              ]
+            },
+            {
+              "mask": 1,
+              "point": [
+                9,
+                0
+              ]
+            },
+            {
+              "mask": 5,
+              "point": [
+                9,
+                4
+              ]
+            },
+            {
+              "mask": 9,
+              "point": [
+                9,
+                8
+              ]
+            },
+            {
+              "mask": 13,
+              "point": [
+                9,
+                12
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 7,
+              "point": [
+                12,
+                4
+              ]
+            },
+            {
+              "mask": 11,
+              "point": [
+                12,
+                8
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            }
+          ]
+        },
+        "source": {
+          "contexts": [
+            {
+              "context": "low",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "A preliminary draft for low listed 10 occurrences of red. That draft was withdrawn. The final correction records exactly 9 occurrences of red among the twelve completed observations."
+                },
+                {
+                  "signal": "blue",
+                  "text": "A preliminary draft for low listed 4 occurrences of blue. That draft was withdrawn. The final correction records exactly 3 occurrences of blue among the twelve completed observations."
+                },
+                {
+                  "signal": "green",
+                  "text": "In the final completed low experiment, green was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "gray",
+                  "text": "In the final completed low experiment, gray was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                }
+              ],
+              "trials": "For context low, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            },
+            {
+              "context": "high",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "In the final completed high experiment, red was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "blue",
+                  "text": "In the final completed high experiment, blue was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "green",
+                  "text": "A preliminary draft for high listed 5 occurrences of green. That draft was withdrawn. The final correction records exactly 4 occurrences of green among the twelve completed observations."
+                },
+                {
+                  "signal": "gray",
+                  "text": "A preliminary draft for high listed 9 occurrences of gray. That draft was withdrawn. The final correction records exactly 8 occurrences of gray among the twelve completed observations."
+                }
+              ],
+              "trials": "For context high, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            }
+          ],
+          "id": "informative"
+        },
+        "status": "READY"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": []
+    }
+  },
+  {
+    "label": "informative-design-0",
+    "method": "design",
+    "args": [
+      "0",
+      "12"
+    ],
+    "transaction": "0x6f11ef32f754f7e341c1b824754d1b4e6caf334a8a8e0eabab8e457eaf912b6a",
+    "state_before": {
+      "channel": {
+        "assessment": {
+          "counts": [
+            [
+              9,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              8
+            ]
+          ],
+          "trials": [
+            12,
+            12
+          ]
+        },
+        "geometry": {
+          "hull": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            }
+          ],
+          "vertices": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 4,
+              "point": [
+                0,
+                4
+              ]
+            },
+            {
+              "mask": 8,
+              "point": [
+                0,
+                8
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            },
+            {
+              "mask": 2,
+              "point": [
+                3,
+                0
+              ]
+            },
+            {
+              "mask": 6,
+              "point": [
+                3,
+                4
+              ]
+            },
+            {
+              "mask": 10,
+              "point": [
+                3,
+                8
+              ]
+            },
+            {
+              "mask": 14,
+              "point": [
+                3,
+                12
+              ]
+            },
+            {
+              "mask": 1,
+              "point": [
+                9,
+                0
+              ]
+            },
+            {
+              "mask": 5,
+              "point": [
+                9,
+                4
+              ]
+            },
+            {
+              "mask": 9,
+              "point": [
+                9,
+                8
+              ]
+            },
+            {
+              "mask": 13,
+              "point": [
+                9,
+                12
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 7,
+              "point": [
+                12,
+                4
+              ]
+            },
+            {
+              "mask": 11,
+              "point": [
+                12,
+                8
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            }
+          ]
+        },
+        "source": {
+          "contexts": [
+            {
+              "context": "low",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "A preliminary draft for low listed 10 occurrences of red. That draft was withdrawn. The final correction records exactly 9 occurrences of red among the twelve completed observations."
+                },
+                {
+                  "signal": "blue",
+                  "text": "A preliminary draft for low listed 4 occurrences of blue. That draft was withdrawn. The final correction records exactly 3 occurrences of blue among the twelve completed observations."
+                },
+                {
+                  "signal": "green",
+                  "text": "In the final completed low experiment, green was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "gray",
+                  "text": "In the final completed low experiment, gray was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                }
+              ],
+              "trials": "For context low, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            },
+            {
+              "context": "high",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "In the final completed high experiment, red was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "blue",
+                  "text": "In the final completed high experiment, blue was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "green",
+                  "text": "A preliminary draft for high listed 5 occurrences of green. That draft was withdrawn. The final correction records exactly 4 occurrences of green among the twelve completed observations."
+                },
+                {
+                  "signal": "gray",
+                  "text": "A preliminary draft for high listed 9 occurrences of gray. That draft was withdrawn. The final correction records exactly 8 occurrences of gray among the twelve completed observations."
+                }
+              ],
+              "trials": "For context high, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            }
+          ],
+          "id": "informative"
+        },
+        "status": "READY"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": []
+    },
+    "state": {
+      "channel": {
+        "assessment": {
+          "counts": [
+            [
+              9,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              8
+            ]
+          ],
+          "trials": [
+            12,
+            12
+          ]
+        },
+        "geometry": {
+          "hull": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            }
+          ],
+          "vertices": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 4,
+              "point": [
+                0,
+                4
+              ]
+            },
+            {
+              "mask": 8,
+              "point": [
+                0,
+                8
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            },
+            {
+              "mask": 2,
+              "point": [
+                3,
+                0
+              ]
+            },
+            {
+              "mask": 6,
+              "point": [
+                3,
+                4
+              ]
+            },
+            {
+              "mask": 10,
+              "point": [
+                3,
+                8
+              ]
+            },
+            {
+              "mask": 14,
+              "point": [
+                3,
+                12
+              ]
+            },
+            {
+              "mask": 1,
+              "point": [
+                9,
+                0
+              ]
+            },
+            {
+              "mask": 5,
+              "point": [
+                9,
+                4
+              ]
+            },
+            {
+              "mask": 9,
+              "point": [
+                9,
+                8
+              ]
+            },
+            {
+              "mask": 13,
+              "point": [
+                9,
+                12
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 7,
+              "point": [
+                12,
+                4
+              ]
+            },
+            {
+              "mask": 11,
+              "point": [
+                12,
+                8
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            }
+          ]
+        },
+        "source": {
+          "contexts": [
+            {
+              "context": "low",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "A preliminary draft for low listed 10 occurrences of red. That draft was withdrawn. The final correction records exactly 9 occurrences of red among the twelve completed observations."
+                },
+                {
+                  "signal": "blue",
+                  "text": "A preliminary draft for low listed 4 occurrences of blue. That draft was withdrawn. The final correction records exactly 3 occurrences of blue among the twelve completed observations."
+                },
+                {
+                  "signal": "green",
+                  "text": "In the final completed low experiment, green was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "gray",
+                  "text": "In the final completed low experiment, gray was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                }
+              ],
+              "trials": "For context low, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            },
+            {
+              "context": "high",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "In the final completed high experiment, red was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "blue",
+                  "text": "In the final completed high experiment, blue was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "green",
+                  "text": "A preliminary draft for high listed 5 occurrences of green. That draft was withdrawn. The final correction records exactly 4 occurrences of green among the twelve completed observations."
+                },
+                {
+                  "signal": "gray",
+                  "text": "A preliminary draft for high listed 9 occurrences of gray. That draft was withdrawn. The final correction records exactly 8 occurrences of gray among the twelve completed observations."
+                }
+              ],
+              "trials": "For context high, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            }
+          ],
+          "id": "informative"
+        },
+        "status": "READY"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": [
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                1
+              ]
+            },
+            "selector": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 1,
+                "numerators": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          },
+          "target": [
+            0,
+            12
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "label": "informative-design-1",
+    "method": "design",
+    "args": [
+      "3",
+      "9"
+    ],
+    "transaction": "0xd2eac397cd7d4bd1239ef44673e5f25c4ddc9d89ed4e1e9500e730501e4a5fad",
+    "state_before": {
+      "channel": {
+        "assessment": {
+          "counts": [
+            [
+              9,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              8
+            ]
+          ],
+          "trials": [
+            12,
+            12
+          ]
+        },
+        "geometry": {
+          "hull": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            }
+          ],
+          "vertices": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 4,
+              "point": [
+                0,
+                4
+              ]
+            },
+            {
+              "mask": 8,
+              "point": [
+                0,
+                8
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            },
+            {
+              "mask": 2,
+              "point": [
+                3,
+                0
+              ]
+            },
+            {
+              "mask": 6,
+              "point": [
+                3,
+                4
+              ]
+            },
+            {
+              "mask": 10,
+              "point": [
+                3,
+                8
+              ]
+            },
+            {
+              "mask": 14,
+              "point": [
+                3,
+                12
+              ]
+            },
+            {
+              "mask": 1,
+              "point": [
+                9,
+                0
+              ]
+            },
+            {
+              "mask": 5,
+              "point": [
+                9,
+                4
+              ]
+            },
+            {
+              "mask": 9,
+              "point": [
+                9,
+                8
+              ]
+            },
+            {
+              "mask": 13,
+              "point": [
+                9,
+                12
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 7,
+              "point": [
+                12,
+                4
+              ]
+            },
+            {
+              "mask": 11,
+              "point": [
+                12,
+                8
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            }
+          ]
+        },
+        "source": {
+          "contexts": [
+            {
+              "context": "low",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "A preliminary draft for low listed 10 occurrences of red. That draft was withdrawn. The final correction records exactly 9 occurrences of red among the twelve completed observations."
+                },
+                {
+                  "signal": "blue",
+                  "text": "A preliminary draft for low listed 4 occurrences of blue. That draft was withdrawn. The final correction records exactly 3 occurrences of blue among the twelve completed observations."
+                },
+                {
+                  "signal": "green",
+                  "text": "In the final completed low experiment, green was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "gray",
+                  "text": "In the final completed low experiment, gray was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                }
+              ],
+              "trials": "For context low, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            },
+            {
+              "context": "high",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "In the final completed high experiment, red was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "blue",
+                  "text": "In the final completed high experiment, blue was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "green",
+                  "text": "A preliminary draft for high listed 5 occurrences of green. That draft was withdrawn. The final correction records exactly 4 occurrences of green among the twelve completed observations."
+                },
+                {
+                  "signal": "gray",
+                  "text": "A preliminary draft for high listed 9 occurrences of gray. That draft was withdrawn. The final correction records exactly 8 occurrences of gray among the twelve completed observations."
+                }
+              ],
+              "trials": "For context high, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            }
+          ],
+          "id": "informative"
+        },
+        "status": "READY"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": [
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                1
+              ]
+            },
+            "selector": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 1,
+                "numerators": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          },
+          "target": [
+            0,
+            12
+          ]
+        }
+      ]
+    },
+    "state": {
+      "channel": {
+        "assessment": {
+          "counts": [
+            [
+              9,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              8
+            ]
+          ],
+          "trials": [
+            12,
+            12
+          ]
+        },
+        "geometry": {
+          "hull": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            }
+          ],
+          "vertices": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 4,
+              "point": [
+                0,
+                4
+              ]
+            },
+            {
+              "mask": 8,
+              "point": [
+                0,
+                8
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            },
+            {
+              "mask": 2,
+              "point": [
+                3,
+                0
+              ]
+            },
+            {
+              "mask": 6,
+              "point": [
+                3,
+                4
+              ]
+            },
+            {
+              "mask": 10,
+              "point": [
+                3,
+                8
+              ]
+            },
+            {
+              "mask": 14,
+              "point": [
+                3,
+                12
+              ]
+            },
+            {
+              "mask": 1,
+              "point": [
+                9,
+                0
+              ]
+            },
+            {
+              "mask": 5,
+              "point": [
+                9,
+                4
+              ]
+            },
+            {
+              "mask": 9,
+              "point": [
+                9,
+                8
+              ]
+            },
+            {
+              "mask": 13,
+              "point": [
+                9,
+                12
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 7,
+              "point": [
+                12,
+                4
+              ]
+            },
+            {
+              "mask": 11,
+              "point": [
+                12,
+                8
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            }
+          ]
+        },
+        "source": {
+          "contexts": [
+            {
+              "context": "low",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "A preliminary draft for low listed 10 occurrences of red. That draft was withdrawn. The final correction records exactly 9 occurrences of red among the twelve completed observations."
+                },
+                {
+                  "signal": "blue",
+                  "text": "A preliminary draft for low listed 4 occurrences of blue. That draft was withdrawn. The final correction records exactly 3 occurrences of blue among the twelve completed observations."
+                },
+                {
+                  "signal": "green",
+                  "text": "In the final completed low experiment, green was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "gray",
+                  "text": "In the final completed low experiment, gray was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                }
+              ],
+              "trials": "For context low, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            },
+            {
+              "context": "high",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "In the final completed high experiment, red was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "blue",
+                  "text": "In the final completed high experiment, blue was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "green",
+                  "text": "A preliminary draft for high listed 5 occurrences of green. That draft was withdrawn. The final correction records exactly 4 occurrences of green among the twelve completed observations."
+                },
+                {
+                  "signal": "gray",
+                  "text": "A preliminary draft for high listed 9 occurrences of gray. That draft was withdrawn. The final correction records exactly 8 occurrences of gray among the twelve completed observations."
+                }
+              ],
+              "trials": "For context high, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            }
+          ],
+          "id": "informative"
+        },
+        "status": "READY"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": [
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                1
+              ]
+            },
+            "selector": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 1,
+                "numerators": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          },
+          "target": [
+            0,
+            12
+          ]
+        },
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                3
+              ]
+            },
+            "selector": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                1,
+                3,
+                3
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 4,
+                "numerators": [
+                  1,
+                  1,
+                  2
+                ]
+              }
+            }
+          },
+          "target": [
+            3,
+            9
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "label": "informative-compose",
+    "method": "compose",
+    "args": [
+      "1",
+      "3",
+      "9"
+    ],
+    "transaction": "0x1f8220c5363c82082fd95acd1f3cfcbb43bf121b1920fd045c03bfa0cf028602",
+    "state_before": {
+      "channel": {
+        "assessment": {
+          "counts": [
+            [
+              9,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              8
+            ]
+          ],
+          "trials": [
+            12,
+            12
+          ]
+        },
+        "geometry": {
+          "hull": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            }
+          ],
+          "vertices": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 4,
+              "point": [
+                0,
+                4
+              ]
+            },
+            {
+              "mask": 8,
+              "point": [
+                0,
+                8
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            },
+            {
+              "mask": 2,
+              "point": [
+                3,
+                0
+              ]
+            },
+            {
+              "mask": 6,
+              "point": [
+                3,
+                4
+              ]
+            },
+            {
+              "mask": 10,
+              "point": [
+                3,
+                8
+              ]
+            },
+            {
+              "mask": 14,
+              "point": [
+                3,
+                12
+              ]
+            },
+            {
+              "mask": 1,
+              "point": [
+                9,
+                0
+              ]
+            },
+            {
+              "mask": 5,
+              "point": [
+                9,
+                4
+              ]
+            },
+            {
+              "mask": 9,
+              "point": [
+                9,
+                8
+              ]
+            },
+            {
+              "mask": 13,
+              "point": [
+                9,
+                12
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 7,
+              "point": [
+                12,
+                4
+              ]
+            },
+            {
+              "mask": 11,
+              "point": [
+                12,
+                8
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            }
+          ]
+        },
+        "source": {
+          "contexts": [
+            {
+              "context": "low",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "A preliminary draft for low listed 10 occurrences of red. That draft was withdrawn. The final correction records exactly 9 occurrences of red among the twelve completed observations."
+                },
+                {
+                  "signal": "blue",
+                  "text": "A preliminary draft for low listed 4 occurrences of blue. That draft was withdrawn. The final correction records exactly 3 occurrences of blue among the twelve completed observations."
+                },
+                {
+                  "signal": "green",
+                  "text": "In the final completed low experiment, green was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "gray",
+                  "text": "In the final completed low experiment, gray was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                }
+              ],
+              "trials": "For context low, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            },
+            {
+              "context": "high",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "In the final completed high experiment, red was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "blue",
+                  "text": "In the final completed high experiment, blue was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "green",
+                  "text": "A preliminary draft for high listed 5 occurrences of green. That draft was withdrawn. The final correction records exactly 4 occurrences of green among the twelve completed observations."
+                },
+                {
+                  "signal": "gray",
+                  "text": "A preliminary draft for high listed 9 occurrences of gray. That draft was withdrawn. The final correction records exactly 8 occurrences of gray among the twelve completed observations."
+                }
+              ],
+              "trials": "For context high, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            }
+          ],
+          "id": "informative"
+        },
+        "status": "READY"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": [
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                1
+              ]
+            },
+            "selector": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 1,
+                "numerators": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          },
+          "target": [
+            0,
+            12
+          ]
+        },
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                3
+              ]
+            },
+            "selector": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                1,
+                3,
+                3
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 4,
+                "numerators": [
+                  1,
+                  1,
+                  2
+                ]
+              }
+            }
+          },
+          "target": [
+            3,
+            9
+          ]
+        }
+      ]
+    },
+    "state": {
+      "channel": {
+        "assessment": {
+          "counts": [
+            [
+              9,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              8
+            ]
+          ],
+          "trials": [
+            12,
+            12
+          ]
+        },
+        "geometry": {
+          "hull": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            }
+          ],
+          "vertices": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 4,
+              "point": [
+                0,
+                4
+              ]
+            },
+            {
+              "mask": 8,
+              "point": [
+                0,
+                8
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            },
+            {
+              "mask": 2,
+              "point": [
+                3,
+                0
+              ]
+            },
+            {
+              "mask": 6,
+              "point": [
+                3,
+                4
+              ]
+            },
+            {
+              "mask": 10,
+              "point": [
+                3,
+                8
+              ]
+            },
+            {
+              "mask": 14,
+              "point": [
+                3,
+                12
+              ]
+            },
+            {
+              "mask": 1,
+              "point": [
+                9,
+                0
+              ]
+            },
+            {
+              "mask": 5,
+              "point": [
+                9,
+                4
+              ]
+            },
+            {
+              "mask": 9,
+              "point": [
+                9,
+                8
+              ]
+            },
+            {
+              "mask": 13,
+              "point": [
+                9,
+                12
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 7,
+              "point": [
+                12,
+                4
+              ]
+            },
+            {
+              "mask": 11,
+              "point": [
+                12,
+                8
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            }
+          ]
+        },
+        "source": {
+          "contexts": [
+            {
+              "context": "low",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "A preliminary draft for low listed 10 occurrences of red. That draft was withdrawn. The final correction records exactly 9 occurrences of red among the twelve completed observations."
+                },
+                {
+                  "signal": "blue",
+                  "text": "A preliminary draft for low listed 4 occurrences of blue. That draft was withdrawn. The final correction records exactly 3 occurrences of blue among the twelve completed observations."
+                },
+                {
+                  "signal": "green",
+                  "text": "In the final completed low experiment, green was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "gray",
+                  "text": "In the final completed low experiment, gray was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                }
+              ],
+              "trials": "For context low, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            },
+            {
+              "context": "high",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "In the final completed high experiment, red was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "blue",
+                  "text": "In the final completed high experiment, blue was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "green",
+                  "text": "A preliminary draft for high listed 5 occurrences of green. That draft was withdrawn. The final correction records exactly 4 occurrences of green among the twelve completed observations."
+                },
+                {
+                  "signal": "gray",
+                  "text": "A preliminary draft for high listed 9 occurrences of gray. That draft was withdrawn. The final correction records exactly 8 occurrences of gray among the twelve completed observations."
+                }
+              ],
+              "trials": "For context high, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            }
+          ],
+          "id": "informative"
+        },
+        "status": "READY"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": [
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                1
+              ]
+            },
+            "selector": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 1,
+                "numerators": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          },
+          "target": [
+            0,
+            12
+          ]
+        },
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                3
+              ]
+            },
+            "selector": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                1,
+                3,
+                3
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 4,
+                "numerators": [
+                  1,
+                  1,
+                  2
+                ]
+              }
+            }
+          },
+          "target": [
+            3,
+            9
+          ]
+        },
+        {
+          "kind": "COMPOSE",
+          "one": 9,
+          "parent": 1,
+          "result": {
+            "depth": 1,
+            "profile": {
+              "denominator": 8,
+              "numerators": [
+                3,
+                5
+              ]
+            },
+            "selector": {
+              "denominator": 8,
+              "numerators": [
+                3,
+                3,
+                5,
+                5
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "POSTPROCESS"
+            }
+          },
+          "zero": 3
+        }
+      ]
+    }
+  },
+  {
+    "label": "informative-reject-parent",
+    "method": "compose",
+    "args": [
+      "999",
+      "0",
+      "12"
+    ],
+    "error": "[EXPECTED] Invalid composition",
+    "transaction": "0x91bd0e26084e61f7c4523c786eaab47e57c30c27763145749ecb6f06affc2be5",
+    "state_before": {
+      "channel": {
+        "assessment": {
+          "counts": [
+            [
+              9,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              8
+            ]
+          ],
+          "trials": [
+            12,
+            12
+          ]
+        },
+        "geometry": {
+          "hull": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            }
+          ],
+          "vertices": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 4,
+              "point": [
+                0,
+                4
+              ]
+            },
+            {
+              "mask": 8,
+              "point": [
+                0,
+                8
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            },
+            {
+              "mask": 2,
+              "point": [
+                3,
+                0
+              ]
+            },
+            {
+              "mask": 6,
+              "point": [
+                3,
+                4
+              ]
+            },
+            {
+              "mask": 10,
+              "point": [
+                3,
+                8
+              ]
+            },
+            {
+              "mask": 14,
+              "point": [
+                3,
+                12
+              ]
+            },
+            {
+              "mask": 1,
+              "point": [
+                9,
+                0
+              ]
+            },
+            {
+              "mask": 5,
+              "point": [
+                9,
+                4
+              ]
+            },
+            {
+              "mask": 9,
+              "point": [
+                9,
+                8
+              ]
+            },
+            {
+              "mask": 13,
+              "point": [
+                9,
+                12
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 7,
+              "point": [
+                12,
+                4
+              ]
+            },
+            {
+              "mask": 11,
+              "point": [
+                12,
+                8
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            }
+          ]
+        },
+        "source": {
+          "contexts": [
+            {
+              "context": "low",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "A preliminary draft for low listed 10 occurrences of red. That draft was withdrawn. The final correction records exactly 9 occurrences of red among the twelve completed observations."
+                },
+                {
+                  "signal": "blue",
+                  "text": "A preliminary draft for low listed 4 occurrences of blue. That draft was withdrawn. The final correction records exactly 3 occurrences of blue among the twelve completed observations."
+                },
+                {
+                  "signal": "green",
+                  "text": "In the final completed low experiment, green was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "gray",
+                  "text": "In the final completed low experiment, gray was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                }
+              ],
+              "trials": "For context low, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            },
+            {
+              "context": "high",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "In the final completed high experiment, red was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "blue",
+                  "text": "In the final completed high experiment, blue was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "green",
+                  "text": "A preliminary draft for high listed 5 occurrences of green. That draft was withdrawn. The final correction records exactly 4 occurrences of green among the twelve completed observations."
+                },
+                {
+                  "signal": "gray",
+                  "text": "A preliminary draft for high listed 9 occurrences of gray. That draft was withdrawn. The final correction records exactly 8 occurrences of gray among the twelve completed observations."
+                }
+              ],
+              "trials": "For context high, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            }
+          ],
+          "id": "informative"
+        },
+        "status": "READY"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": [
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                1
+              ]
+            },
+            "selector": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 1,
+                "numerators": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          },
+          "target": [
+            0,
+            12
+          ]
+        },
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                3
+              ]
+            },
+            "selector": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                1,
+                3,
+                3
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 4,
+                "numerators": [
+                  1,
+                  1,
+                  2
+                ]
+              }
+            }
+          },
+          "target": [
+            3,
+            9
+          ]
+        },
+        {
+          "kind": "COMPOSE",
+          "one": 9,
+          "parent": 1,
+          "result": {
+            "depth": 1,
+            "profile": {
+              "denominator": 8,
+              "numerators": [
+                3,
+                5
+              ]
+            },
+            "selector": {
+              "denominator": 8,
+              "numerators": [
+                3,
+                3,
+                5,
+                5
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "POSTPROCESS"
+            }
+          },
+          "zero": 3
+        }
+      ]
+    },
+    "state": {
+      "channel": {
+        "assessment": {
+          "counts": [
+            [
+              9,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              8
+            ]
+          ],
+          "trials": [
+            12,
+            12
+          ]
+        },
+        "geometry": {
+          "hull": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            }
+          ],
+          "vertices": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 4,
+              "point": [
+                0,
+                4
+              ]
+            },
+            {
+              "mask": 8,
+              "point": [
+                0,
+                8
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            },
+            {
+              "mask": 2,
+              "point": [
+                3,
+                0
+              ]
+            },
+            {
+              "mask": 6,
+              "point": [
+                3,
+                4
+              ]
+            },
+            {
+              "mask": 10,
+              "point": [
+                3,
+                8
+              ]
+            },
+            {
+              "mask": 14,
+              "point": [
+                3,
+                12
+              ]
+            },
+            {
+              "mask": 1,
+              "point": [
+                9,
+                0
+              ]
+            },
+            {
+              "mask": 5,
+              "point": [
+                9,
+                4
+              ]
+            },
+            {
+              "mask": 9,
+              "point": [
+                9,
+                8
+              ]
+            },
+            {
+              "mask": 13,
+              "point": [
+                9,
+                12
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 7,
+              "point": [
+                12,
+                4
+              ]
+            },
+            {
+              "mask": 11,
+              "point": [
+                12,
+                8
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            }
+          ]
+        },
+        "source": {
+          "contexts": [
+            {
+              "context": "low",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "A preliminary draft for low listed 10 occurrences of red. That draft was withdrawn. The final correction records exactly 9 occurrences of red among the twelve completed observations."
+                },
+                {
+                  "signal": "blue",
+                  "text": "A preliminary draft for low listed 4 occurrences of blue. That draft was withdrawn. The final correction records exactly 3 occurrences of blue among the twelve completed observations."
+                },
+                {
+                  "signal": "green",
+                  "text": "In the final completed low experiment, green was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "gray",
+                  "text": "In the final completed low experiment, gray was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                }
+              ],
+              "trials": "For context low, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            },
+            {
+              "context": "high",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "In the final completed high experiment, red was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "blue",
+                  "text": "In the final completed high experiment, blue was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "green",
+                  "text": "A preliminary draft for high listed 5 occurrences of green. That draft was withdrawn. The final correction records exactly 4 occurrences of green among the twelve completed observations."
+                },
+                {
+                  "signal": "gray",
+                  "text": "A preliminary draft for high listed 9 occurrences of gray. That draft was withdrawn. The final correction records exactly 8 occurrences of gray among the twelve completed observations."
+                }
+              ],
+              "trials": "For context high, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            }
+          ],
+          "id": "informative"
+        },
+        "status": "READY"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": [
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                1
+              ]
+            },
+            "selector": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 1,
+                "numerators": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          },
+          "target": [
+            0,
+            12
+          ]
+        },
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                3
+              ]
+            },
+            "selector": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                1,
+                3,
+                3
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 4,
+                "numerators": [
+                  1,
+                  1,
+                  2
+                ]
+              }
+            }
+          },
+          "target": [
+            3,
+            9
+          ]
+        },
+        {
+          "kind": "COMPOSE",
+          "one": 9,
+          "parent": 1,
+          "result": {
+            "depth": 1,
+            "profile": {
+              "denominator": 8,
+              "numerators": [
+                3,
+                5
+              ]
+            },
+            "selector": {
+              "denominator": 8,
+              "numerators": [
+                3,
+                3,
+                5,
+                5
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "POSTPROCESS"
+            }
+          },
+          "zero": 3
+        }
+      ]
+    }
+  },
+  {
+    "label": "informative-reject-duplicate",
+    "method": "design",
+    "args": [
+      "3",
+      "9"
+    ],
+    "error": "[EXPECTED] Profile already designed",
+    "transaction": "0x48ec53f514ac64c4cf5883b81f504bda839bf50a493c27433b33898e551fb1e3",
+    "state_before": {
+      "channel": {
+        "assessment": {
+          "counts": [
+            [
+              9,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              8
+            ]
+          ],
+          "trials": [
+            12,
+            12
+          ]
+        },
+        "geometry": {
+          "hull": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            }
+          ],
+          "vertices": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 4,
+              "point": [
+                0,
+                4
+              ]
+            },
+            {
+              "mask": 8,
+              "point": [
+                0,
+                8
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            },
+            {
+              "mask": 2,
+              "point": [
+                3,
+                0
+              ]
+            },
+            {
+              "mask": 6,
+              "point": [
+                3,
+                4
+              ]
+            },
+            {
+              "mask": 10,
+              "point": [
+                3,
+                8
+              ]
+            },
+            {
+              "mask": 14,
+              "point": [
+                3,
+                12
+              ]
+            },
+            {
+              "mask": 1,
+              "point": [
+                9,
+                0
+              ]
+            },
+            {
+              "mask": 5,
+              "point": [
+                9,
+                4
+              ]
+            },
+            {
+              "mask": 9,
+              "point": [
+                9,
+                8
+              ]
+            },
+            {
+              "mask": 13,
+              "point": [
+                9,
+                12
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 7,
+              "point": [
+                12,
+                4
+              ]
+            },
+            {
+              "mask": 11,
+              "point": [
+                12,
+                8
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            }
+          ]
+        },
+        "source": {
+          "contexts": [
+            {
+              "context": "low",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "A preliminary draft for low listed 10 occurrences of red. That draft was withdrawn. The final correction records exactly 9 occurrences of red among the twelve completed observations."
+                },
+                {
+                  "signal": "blue",
+                  "text": "A preliminary draft for low listed 4 occurrences of blue. That draft was withdrawn. The final correction records exactly 3 occurrences of blue among the twelve completed observations."
+                },
+                {
+                  "signal": "green",
+                  "text": "In the final completed low experiment, green was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "gray",
+                  "text": "In the final completed low experiment, gray was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                }
+              ],
+              "trials": "For context low, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            },
+            {
+              "context": "high",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "In the final completed high experiment, red was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "blue",
+                  "text": "In the final completed high experiment, blue was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "green",
+                  "text": "A preliminary draft for high listed 5 occurrences of green. That draft was withdrawn. The final correction records exactly 4 occurrences of green among the twelve completed observations."
+                },
+                {
+                  "signal": "gray",
+                  "text": "A preliminary draft for high listed 9 occurrences of gray. That draft was withdrawn. The final correction records exactly 8 occurrences of gray among the twelve completed observations."
+                }
+              ],
+              "trials": "For context high, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            }
+          ],
+          "id": "informative"
+        },
+        "status": "READY"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": [
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                1
+              ]
+            },
+            "selector": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 1,
+                "numerators": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          },
+          "target": [
+            0,
+            12
+          ]
+        },
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                3
+              ]
+            },
+            "selector": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                1,
+                3,
+                3
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 4,
+                "numerators": [
+                  1,
+                  1,
+                  2
+                ]
+              }
+            }
+          },
+          "target": [
+            3,
+            9
+          ]
+        },
+        {
+          "kind": "COMPOSE",
+          "one": 9,
+          "parent": 1,
+          "result": {
+            "depth": 1,
+            "profile": {
+              "denominator": 8,
+              "numerators": [
+                3,
+                5
+              ]
+            },
+            "selector": {
+              "denominator": 8,
+              "numerators": [
+                3,
+                3,
+                5,
+                5
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "POSTPROCESS"
+            }
+          },
+          "zero": 3
+        }
+      ]
+    },
+    "state": {
+      "channel": {
+        "assessment": {
+          "counts": [
+            [
+              9,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              8
+            ]
+          ],
+          "trials": [
+            12,
+            12
+          ]
+        },
+        "geometry": {
+          "hull": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            }
+          ],
+          "vertices": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 4,
+              "point": [
+                0,
+                4
+              ]
+            },
+            {
+              "mask": 8,
+              "point": [
+                0,
+                8
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            },
+            {
+              "mask": 2,
+              "point": [
+                3,
+                0
+              ]
+            },
+            {
+              "mask": 6,
+              "point": [
+                3,
+                4
+              ]
+            },
+            {
+              "mask": 10,
+              "point": [
+                3,
+                8
+              ]
+            },
+            {
+              "mask": 14,
+              "point": [
+                3,
+                12
+              ]
+            },
+            {
+              "mask": 1,
+              "point": [
+                9,
+                0
+              ]
+            },
+            {
+              "mask": 5,
+              "point": [
+                9,
+                4
+              ]
+            },
+            {
+              "mask": 9,
+              "point": [
+                9,
+                8
+              ]
+            },
+            {
+              "mask": 13,
+              "point": [
+                9,
+                12
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 7,
+              "point": [
+                12,
+                4
+              ]
+            },
+            {
+              "mask": 11,
+              "point": [
+                12,
+                8
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            }
+          ]
+        },
+        "source": {
+          "contexts": [
+            {
+              "context": "low",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "A preliminary draft for low listed 10 occurrences of red. That draft was withdrawn. The final correction records exactly 9 occurrences of red among the twelve completed observations."
+                },
+                {
+                  "signal": "blue",
+                  "text": "A preliminary draft for low listed 4 occurrences of blue. That draft was withdrawn. The final correction records exactly 3 occurrences of blue among the twelve completed observations."
+                },
+                {
+                  "signal": "green",
+                  "text": "In the final completed low experiment, green was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "gray",
+                  "text": "In the final completed low experiment, gray was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                }
+              ],
+              "trials": "For context low, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            },
+            {
+              "context": "high",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "In the final completed high experiment, red was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "blue",
+                  "text": "In the final completed high experiment, blue was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "green",
+                  "text": "A preliminary draft for high listed 5 occurrences of green. That draft was withdrawn. The final correction records exactly 4 occurrences of green among the twelve completed observations."
+                },
+                {
+                  "signal": "gray",
+                  "text": "A preliminary draft for high listed 9 occurrences of gray. That draft was withdrawn. The final correction records exactly 8 occurrences of gray among the twelve completed observations."
+                }
+              ],
+              "trials": "For context high, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            }
+          ],
+          "id": "informative"
+        },
+        "status": "READY"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": [
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                1
+              ]
+            },
+            "selector": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 1,
+                "numerators": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          },
+          "target": [
+            0,
+            12
+          ]
+        },
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                3
+              ]
+            },
+            "selector": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                1,
+                3,
+                3
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 4,
+                "numerators": [
+                  1,
+                  1,
+                  2
+                ]
+              }
+            }
+          },
+          "target": [
+            3,
+            9
+          ]
+        },
+        {
+          "kind": "COMPOSE",
+          "one": 9,
+          "parent": 1,
+          "result": {
+            "depth": 1,
+            "profile": {
+              "denominator": 8,
+              "numerators": [
+                3,
+                5
+              ]
+            },
+            "selector": {
+              "denominator": 8,
+              "numerators": [
+                3,
+                3,
+                5,
+                5
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "POSTPROCESS"
+            }
+          },
+          "zero": 3
+        }
+      ]
+    }
+  },
+  {
+    "label": "informative-reject-recompile",
+    "method": "compile",
+    "args": [],
+    "error": "[EXPECTED] Channel already compiled",
+    "transaction": "0xae59dfd0d818a14876e5ed89a63f834c14e841c49ad49adad5e54c4f65aaebd0",
+    "state_before": {
+      "channel": {
+        "assessment": {
+          "counts": [
+            [
+              9,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              8
+            ]
+          ],
+          "trials": [
+            12,
+            12
+          ]
+        },
+        "geometry": {
+          "hull": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            }
+          ],
+          "vertices": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 4,
+              "point": [
+                0,
+                4
+              ]
+            },
+            {
+              "mask": 8,
+              "point": [
+                0,
+                8
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            },
+            {
+              "mask": 2,
+              "point": [
+                3,
+                0
+              ]
+            },
+            {
+              "mask": 6,
+              "point": [
+                3,
+                4
+              ]
+            },
+            {
+              "mask": 10,
+              "point": [
+                3,
+                8
+              ]
+            },
+            {
+              "mask": 14,
+              "point": [
+                3,
+                12
+              ]
+            },
+            {
+              "mask": 1,
+              "point": [
+                9,
+                0
+              ]
+            },
+            {
+              "mask": 5,
+              "point": [
+                9,
+                4
+              ]
+            },
+            {
+              "mask": 9,
+              "point": [
+                9,
+                8
+              ]
+            },
+            {
+              "mask": 13,
+              "point": [
+                9,
+                12
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 7,
+              "point": [
+                12,
+                4
+              ]
+            },
+            {
+              "mask": 11,
+              "point": [
+                12,
+                8
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            }
+          ]
+        },
+        "source": {
+          "contexts": [
+            {
+              "context": "low",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "A preliminary draft for low listed 10 occurrences of red. That draft was withdrawn. The final correction records exactly 9 occurrences of red among the twelve completed observations."
+                },
+                {
+                  "signal": "blue",
+                  "text": "A preliminary draft for low listed 4 occurrences of blue. That draft was withdrawn. The final correction records exactly 3 occurrences of blue among the twelve completed observations."
+                },
+                {
+                  "signal": "green",
+                  "text": "In the final completed low experiment, green was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "gray",
+                  "text": "In the final completed low experiment, gray was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                }
+              ],
+              "trials": "For context low, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            },
+            {
+              "context": "high",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "In the final completed high experiment, red was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "blue",
+                  "text": "In the final completed high experiment, blue was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "green",
+                  "text": "A preliminary draft for high listed 5 occurrences of green. That draft was withdrawn. The final correction records exactly 4 occurrences of green among the twelve completed observations."
+                },
+                {
+                  "signal": "gray",
+                  "text": "A preliminary draft for high listed 9 occurrences of gray. That draft was withdrawn. The final correction records exactly 8 occurrences of gray among the twelve completed observations."
+                }
+              ],
+              "trials": "For context high, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            }
+          ],
+          "id": "informative"
+        },
+        "status": "READY"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": [
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                1
+              ]
+            },
+            "selector": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 1,
+                "numerators": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          },
+          "target": [
+            0,
+            12
+          ]
+        },
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                3
+              ]
+            },
+            "selector": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                1,
+                3,
+                3
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 4,
+                "numerators": [
+                  1,
+                  1,
+                  2
+                ]
+              }
+            }
+          },
+          "target": [
+            3,
+            9
+          ]
+        },
+        {
+          "kind": "COMPOSE",
+          "one": 9,
+          "parent": 1,
+          "result": {
+            "depth": 1,
+            "profile": {
+              "denominator": 8,
+              "numerators": [
+                3,
+                5
+              ]
+            },
+            "selector": {
+              "denominator": 8,
+              "numerators": [
+                3,
+                3,
+                5,
+                5
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "POSTPROCESS"
+            }
+          },
+          "zero": 3
+        }
+      ]
+    },
+    "state": {
+      "channel": {
+        "assessment": {
+          "counts": [
+            [
+              9,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              8
+            ]
+          ],
+          "trials": [
+            12,
+            12
+          ]
+        },
+        "geometry": {
+          "hull": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            }
+          ],
+          "vertices": [
+            {
+              "mask": 0,
+              "point": [
+                0,
+                0
+              ]
+            },
+            {
+              "mask": 4,
+              "point": [
+                0,
+                4
+              ]
+            },
+            {
+              "mask": 8,
+              "point": [
+                0,
+                8
+              ]
+            },
+            {
+              "mask": 12,
+              "point": [
+                0,
+                12
+              ]
+            },
+            {
+              "mask": 2,
+              "point": [
+                3,
+                0
+              ]
+            },
+            {
+              "mask": 6,
+              "point": [
+                3,
+                4
+              ]
+            },
+            {
+              "mask": 10,
+              "point": [
+                3,
+                8
+              ]
+            },
+            {
+              "mask": 14,
+              "point": [
+                3,
+                12
+              ]
+            },
+            {
+              "mask": 1,
+              "point": [
+                9,
+                0
+              ]
+            },
+            {
+              "mask": 5,
+              "point": [
+                9,
+                4
+              ]
+            },
+            {
+              "mask": 9,
+              "point": [
+                9,
+                8
+              ]
+            },
+            {
+              "mask": 13,
+              "point": [
+                9,
+                12
+              ]
+            },
+            {
+              "mask": 3,
+              "point": [
+                12,
+                0
+              ]
+            },
+            {
+              "mask": 7,
+              "point": [
+                12,
+                4
+              ]
+            },
+            {
+              "mask": 11,
+              "point": [
+                12,
+                8
+              ]
+            },
+            {
+              "mask": 15,
+              "point": [
+                12,
+                12
+              ]
+            }
+          ]
+        },
+        "source": {
+          "contexts": [
+            {
+              "context": "low",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "A preliminary draft for low listed 10 occurrences of red. That draft was withdrawn. The final correction records exactly 9 occurrences of red among the twelve completed observations."
+                },
+                {
+                  "signal": "blue",
+                  "text": "A preliminary draft for low listed 4 occurrences of blue. That draft was withdrawn. The final correction records exactly 3 occurrences of blue among the twelve completed observations."
+                },
+                {
+                  "signal": "green",
+                  "text": "In the final completed low experiment, green was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "gray",
+                  "text": "In the final completed low experiment, gray was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                }
+              ],
+              "trials": "For context low, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            },
+            {
+              "context": "high",
+              "signals": [
+                {
+                  "signal": "red",
+                  "text": "In the final completed high experiment, red was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "blue",
+                  "text": "In the final completed high experiment, blue was never observed. Its occurrence count is explicitly zero; this is not missing data."
+                },
+                {
+                  "signal": "green",
+                  "text": "A preliminary draft for high listed 5 occurrences of green. That draft was withdrawn. The final correction records exactly 4 occurrences of green among the twelve completed observations."
+                },
+                {
+                  "signal": "gray",
+                  "text": "A preliminary draft for high listed 9 occurrences of gray. That draft was withdrawn. The final correction records exactly 8 occurrences of gray among the twelve completed observations."
+                }
+              ],
+              "trials": "For context high, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+            }
+          ],
+          "id": "informative"
+        },
+        "status": "READY"
+      },
+      "configuration": {
+        "contexts": [
+          "low",
+          "high"
+        ],
+        "repository": "mohammadisina1988-jpg/signal-hull",
+        "sha256": "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710",
+        "signals": [
+          "red",
+          "blue",
+          "green",
+          "gray"
+        ],
+        "trials_per_context": 12,
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json"
+      },
+      "designs": [
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                1
+              ]
+            },
+            "selector": {
+              "denominator": 1,
+              "numerators": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 1,
+                "numerators": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          },
+          "target": [
+            0,
+            12
+          ]
+        },
+        {
+          "kind": "DESIGN",
+          "result": {
+            "depth": 0,
+            "profile": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                3
+              ]
+            },
+            "selector": {
+              "denominator": 4,
+              "numerators": [
+                1,
+                1,
+                3,
+                3
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "MIXTURE",
+              "masks": [
+                0,
+                15,
+                12
+              ],
+              "weights": {
+                "denominator": 4,
+                "numerators": [
+                  1,
+                  1,
+                  2
+                ]
+              }
+            }
+          },
+          "target": [
+            3,
+            9
+          ]
+        },
+        {
+          "kind": "COMPOSE",
+          "one": 9,
+          "parent": 1,
+          "result": {
+            "depth": 1,
+            "profile": {
+              "denominator": 8,
+              "numerators": [
+                3,
+                5
+              ]
+            },
+            "selector": {
+              "denominator": 8,
+              "numerators": [
+                3,
+                3,
+                5,
+                5
+              ]
+            },
+            "status": "FEASIBLE",
+            "witness": {
+              "kind": "POSTPROCESS"
+            }
+          },
+          "zero": 3
+        }
+      ]
+    }
+  }
+]

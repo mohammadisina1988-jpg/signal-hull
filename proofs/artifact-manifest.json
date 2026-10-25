@@ -1,0 +1,86 @@
+{
+  "reported_by": "GitHub Actions artifact API",
+  "note": "Archive digests are GitHub-reported metadata. Downloaded contents are separately checked by source-bound local offline replay.",
+  "runs": [
+    {
+      "run": 40195198608,
+      "id": 12599871276,
+      "name": "studionet-proofs",
+      "size_in_bytes": 63416,
+      "url": "https://api.github.com/repos/mohammadisina1988-jpg/signal-hull/actions/artifacts/12599871276",
+      "archive_download_url": "https://api.github.com/repos/mohammadisina1988-jpg/signal-hull/actions/artifacts/12599871276/zip",
+      "expired": false,
+      "created_at": "2026-10-25T13:03:43Z",
+      "expires_at": "2027-01-23T12:54:31Z",
+      "updated_at": "2026-10-25T13:03:43Z",
+      "digest": "sha256:019ab38b4f5ad219f9d678406ad25b21bb5e81f702e6904a51264d5626706b73",
+      "workflow_run": {
+        "id": 40195198608,
+        "repository_id": 1433196899,
+        "head_repository_id": 1433196899,
+        "head_branch": "main",
+        "head_sha": "ddbe7ea3ac4ed0cc90d2fa868c159687e0eb4b1a"
+      }
+    },
+    {
+      "run": 40195202436,
+      "id": 12600175426,
+      "name": "studionet-proofs",
+      "size_in_bytes": 63978,
+      "url": "https://api.github.com/repos/mohammadisina1988-jpg/signal-hull/actions/artifacts/12600175426",
+      "archive_download_url": "https://api.github.com/repos/mohammadisina1988-jpg/signal-hull/actions/artifacts/12600175426/zip",
+      "expired": false,
+      "created_at": "2026-10-25T13:05:19Z",
+      "expires_at": "2027-01-23T12:54:33Z",
+      "updated_at": "2026-10-25T13:05:19Z",
+      "digest": "sha256:9d36668c456ceb53b2c1dcb0b230e940a4024df079fb97ce603e1d7a8d01d256",
+      "workflow_run": {
+        "id": 40195202436,
+        "repository_id": 1433196899,
+        "head_repository_id": 1433196899,
+        "head_branch": "main",
+        "head_sha": "ddbe7ea3ac4ed0cc90d2fa868c159687e0eb4b1a"
+      }
+    },
+    {
+      "run": 40195206202,
+      "id": 12599429898,
+      "name": "studionet-proofs",
+      "size_in_bytes": 62685,
+      "url": "https://api.github.com/repos/mohammadisina1988-jpg/signal-hull/actions/artifacts/12599429898",
+      "archive_download_url": "https://api.github.com/repos/mohammadisina1988-jpg/signal-hull/actions/artifacts/12599429898/zip",
+      "expired": false,
+      "created_at": "2026-10-25T13:04:37Z",
+      "expires_at": "2027-01-23T12:54:36Z",
+      "updated_at": "2026-10-25T13:04:37Z",
+      "digest": "sha256:750a0bc2db8a78deca1278ecccf8c442d56b5eafc01abe9d898dc5efa1c0ab9c",
+      "workflow_run": {
+        "id": 40195206202,
+        "repository_id": 1433196899,
+        "head_repository_id": 1433196899,
+        "head_branch": "main",
+        "head_sha": "ddbe7ea3ac4ed0cc90d2fa868c159687e0eb4b1a"
+      }
+    },
+    {
+      "run": 40195210762,
+      "id": 12599099891,
+      "name": "studionet-proofs",
+      "size_in_bytes": 49098,
+      "url": "https://api.github.com/repos/mohammadisina1988-jpg/signal-hull/actions/artifacts/12599099891",
+      "archive_download_url": "https://api.github.com/repos/mohammadisina1988-jpg/signal-hull/actions/artifacts/12599099891/zip",
+      "expired": false,
+      "created_at": "2026-10-25T13:01:27Z",
+      "expires_at": "2027-01-23T12:54:40Z",
+      "updated_at": "2026-10-25T13:01:27Z",
+      "digest": "sha256:7c3b0afcf3495f3309d9079eb09f292e9244cbb65b4e592a74772c879a20097d",
+      "workflow_run": {
+        "id": 40195210762,
+        "repository_id": 1433196899,
+        "head_repository_id": 1433196899,
+        "head_branch": "main",
+        "head_sha": "ddbe7ea3ac4ed0cc90d2fa868c159687e0eb4b1a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "channel": {
+    "assessment": {
+      "counts": [
+        [
+          6,
+          "UNKNOWN",
+          2,
+          "UNKNOWN"
+        ],
+        [
+          1,
+          2,
+          3,
+          6
+        ]
+      ],
+      "trials": [
+        12,
+        12
+      ]
+    },
+    "source": {
+      "contexts": [
+        {
+          "context": "low",
+          "signals": [
+            {
+              "signal": "red",
+              "text": "A preliminary draft for low listed 7 occurrences of red. That draft was withdrawn. The final correction records exactly 6 occurrences of red among the twelve completed observations."
+            },
+            {
+              "signal": "blue",
+              "text": "Final record for low: blue and gray together occurred four times. Their individual counts were not recorded, so the number of blue occurrences remains unresolved; there is no approved split."
+            },
+            {
+              "signal": "green",
+              "text": "A preliminary draft for low listed 3 occurrences of green. That draft was withdrawn. The final correction records exactly 2 occurrences of green among the twelve completed observations."
+            },
+            {
+              "signal": "gray",
+              "text": "Final record for low: blue and gray together occurred four times. Their individual counts were not recorded, so the number of gray occurrences remains unresolved; there is no approved split."
+            }
+          ],
+          "trials": "For context low, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+        },
+        {
+          "context": "high",
+          "signals": [
+            {
+              "signal": "red",
+              "text": "A preliminary draft for high listed 2 occurrences of red. That draft was withdrawn. The final correction records exactly 1 occurrences of red among the twelve completed observations."
+            },
+            {
+              "signal": "blue",
+              "text": "A preliminary draft for high listed 3 occurrences of blue. That draft was withdrawn. The final correction records exactly 2 occurrences of blue among the twelve completed observations."
+            },
+            {
+              "signal": "green",
+              "text": "A preliminary draft for high listed 4 occurrences of green. That draft was withdrawn. The final correction records exactly 3 occurrences of green among the twelve completed observations."
+            },
+            {
+              "signal": "gray",
+              "text": "A preliminary draft for high listed 7 occurrences of gray. That draft was withdrawn. The final correction records exactly 6 occurrences of gray among the twelve completed observations."
+            }
+          ],
+          "trials": "For context high, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes."
+        }
+      ],
+      "id": "unresolved"
+    },
+    "status": "REVIEW",
+    "unknown": [
+      "low:blue",
+      "low:gray"
+    ]
+  },
+  "configuration": {
+    "contexts": [
+      "low",
+      "high"
+    ],
+    "repository": "mohammadisina1988-jpg/signal-hull",
+    "sha256": "6d2b71569f618a9b68a5fabd6616518295876a97856f2f8a9e857778d2c25649",
+    "signals": [
+      "red",
+      "blue",
+      "green",
+      "gray"
+    ],
+    "trials_per_context": 12,
+    "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/unresolved.json"
+  },
+  "designs": []
+}

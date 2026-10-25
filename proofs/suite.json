@@ -1,0 +1,62 @@
+[
+  {
+    "id": "informative",
+    "network": "studionet",
+    "chain_id": 61999,
+    "contract": "0x793fb9c6715E7378b241C086fDed7c5877Cde80c",
+    "deployment": "0xf478f81ceb5b1b34af2d419ae489e06298bfab43d5c8865f876cca61d99e2251",
+    "caller": "0x6049766e00a6ff4e86914f03f232aaa75eb9a9a4",
+    "args": [
+      "mohammadisina1988-jpg/signal-hull",
+      "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/informative.json",
+      "01672c8f70f2d531dfd0ca1eb74211853f095fc2c550c0bdac0752f663170710"
+    ],
+    "fixture_revision": "aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe",
+    "source_sha256": "2279ccb85da1ef029158232337395f867bf81f71d11057dd90b1bba6b9e67a25"
+  },
+  {
+    "id": "noisy",
+    "network": "studionet",
+    "chain_id": 61999,
+    "contract": "0x8171973fd2Ed672085BF970898f78906A67A102b",
+    "deployment": "0x91cf40f2042f7004252b0427122fecfc5ec1a42a7c2e53d1f33e07fb595f1434",
+    "caller": "0xb012e92754ee919da105ec60c5198eab2eca8d7d",
+    "args": [
+      "mohammadisina1988-jpg/signal-hull",
+      "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/noisy.json",
+      "7fbdda9c1e0b50181ad0e8ef1e86ff0e9e76d05490bf7a99c85d9218ab4c3788"
+    ],
+    "fixture_revision": "aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe",
+    "source_sha256": "2279ccb85da1ef029158232337395f867bf81f71d11057dd90b1bba6b9e67a25"
+  },
+  {
+    "id": "blind",
+    "network": "studionet",
+    "chain_id": 61999,
+    "contract": "0xb811c517cc7907d129B8c01deE1e237046ab8d22",
+    "deployment": "0xa36a17fb7e5164a2c5a160e1aad745e9e7ae1b51fc7133da25d28294041cdbb1",
+    "caller": "0x7e956cd7b13085e10576a64978529782e95a4869",
+    "args": [
+      "mohammadisina1988-jpg/signal-hull",
+      "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/blind.json",
+      "c264695a5509555bf5816d296febe75cdba1b6f3ccd25e612c2ba9d97b650500"
+    ],
+    "fixture_revision": "aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe",
+    "source_sha256": "2279ccb85da1ef029158232337395f867bf81f71d11057dd90b1bba6b9e67a25"
+  },
+  {
+    "id": "unresolved",
+    "network": "studionet",
+    "chain_id": 61999,
+    "contract": "0x297621d9BF16eca3cf830656b68691F5c384f97e",
+    "deployment": "0x53a8a0530041cd5febaec50cb826cdc7f67cde30134ab5f884d51749b172f32a",
+    "caller": "0x8781190464a553109ba0a8410697faa1f94ef61e",
+    "args": [
+      "mohammadisina1988-jpg/signal-hull",
+      "https://raw.githubusercontent.com/mohammadisina1988-jpg/signal-hull/aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe/reports/unresolved.json",
+      "6d2b71569f618a9b68a5fabd6616518295876a97856f2f8a9e857778d2c25649"
+    ],
+    "fixture_revision": "aca3d6e3dadd06a66d2fa4c7868abb9b03c43bfe",
+    "source_sha256": "2279ccb85da1ef029158232337395f867bf81f71d11057dd90b1bba6b9e67a25"
+  }
+]
