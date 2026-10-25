@@ -1,0 +1,49 @@
+{
+  "id": "informative",
+  "contexts": [
+    {
+      "context": "low",
+      "trials": "For context low, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes.",
+      "signals": [
+        {
+          "signal": "red",
+          "text": "A preliminary draft for low listed 10 occurrences of red. That draft was withdrawn. The final correction records exactly 9 occurrences of red among the twelve completed observations."
+        },
+        {
+          "signal": "blue",
+          "text": "A preliminary draft for low listed 4 occurrences of blue. That draft was withdrawn. The final correction records exactly 3 occurrences of blue among the twelve completed observations."
+        },
+        {
+          "signal": "green",
+          "text": "In the final completed low experiment, green was never observed. Its occurrence count is explicitly zero; this is not missing data."
+        },
+        {
+          "signal": "gray",
+          "text": "In the final completed low experiment, gray was never observed. Its occurrence count is explicitly zero; this is not missing data."
+        }
+      ]
+    },
+    {
+      "context": "high",
+      "trials": "For context high, the future proposal planned twenty observations. That proposal did not run. The final completed experiment has exactly twelve observations. Each has one and only one of red, blue, green or gray; those four labels exhaust the outcomes.",
+      "signals": [
+        {
+          "signal": "red",
+          "text": "In the final completed high experiment, red was never observed. Its occurrence count is explicitly zero; this is not missing data."
+        },
+        {
+          "signal": "blue",
+          "text": "In the final completed high experiment, blue was never observed. Its occurrence count is explicitly zero; this is not missing data."
+        },
+        {
+          "signal": "green",
+          "text": "A preliminary draft for high listed 5 occurrences of green. That draft was withdrawn. The final correction records exactly 4 occurrences of green among the twelve completed observations."
+        },
+        {
+          "signal": "gray",
+          "text": "A preliminary draft for high listed 9 occurrences of gray. That draft was withdrawn. The final correction records exactly 8 occurrences of gray among the twelve completed observations."
+        }
+      ]
+    }
+  ]
+}
